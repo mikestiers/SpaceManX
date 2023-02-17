@@ -1,0 +1,3128 @@
+fileFormatVersion: 2
+guid: 0fe0b13528367654d8518f7f344d8c05
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MegaMan_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 711
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b707bae2965bc84c8b2c4daf7eb23e1
+      internalID: 1658019594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Spawn01
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 670
+        width: 8
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ded307a9041ef4a95e648ff8684178
+      internalID: 276964362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 667
+        width: 59
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8065cce378e33488dadd6b746d10ee
+      internalID: -1158287724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Spawn02
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 670
+        width: 16
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081e7f9fa2062224c95a9d5cd29cdfbd
+      internalID: 1910142475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Spawn03
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 670
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7071b566349a24429cab6facfaaa4ae
+      internalID: 1128145607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Spawn04
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 670
+        width: 30
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868409c5079f99642b6b558609d02b66
+      internalID: -1276519950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Spawn06
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 670
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab3813f0fcce6445b77fd0c04c5c86f
+      internalID: 2042698844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Spawn07
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 670
+        width: 41
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de88d6da1acbbd841a6594de02f11aa2
+      internalID: 2113690165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 692
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e83f590d99cae74d8bbeed3993f58d0
+      internalID: 1505131393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Spawn05
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 670
+        width: 32
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4162dc7e00b6dc41adcb01ace6d9c9f
+      internalID: 1676289205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Idle01
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 624
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e2fd124728be24b8e068e134b557e3
+      internalID: -677275356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Idle02
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 624
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0e11007708e0c4795ed388f4453e73
+      internalID: -1109309414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Idle03
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 624
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2615238d724f0a549850dc5d0e98c78d
+      internalID: -1325447024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Idle04
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 624
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818d5973ea87ef6468d198c7e16a070c
+      internalID: 1417088806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Idle05
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac8238c000a3264e9e42e4918916588
+      internalID: 336477674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Idle06
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 624
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a392e4d20807f074f818f3d54af7a913
+      internalID: -321402459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Idle07
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 624
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8191099d63176774e85c534f49310d2e
+      internalID: 725860428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 629
+        width: 45
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52bbc0d991262442a3a5bf7cdb6e2c2
+      internalID: 1687994773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Stand01
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 580
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df093ba64893fba49bc511482a7dbdb9
+      internalID: 1887487138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Stand02
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 580
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a7013775bfdd04d9e9127fbddd9a4d
+      internalID: -1016064339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run01
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 580
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ef6aa56504f2e40b6a7158f996171d
+      internalID: -1356530091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run02
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 579
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3ca44174e855e4fa46b7d2ba2c45e8
+      internalID: -2115362007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run03
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 578
+        width: 44
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4df01617a7aaf47afbf34be3090c5a
+      internalID: -872831954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run04
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 580
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c764d53a8bd67499375e4a0327f2bb
+      internalID: 1328258645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run05
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 580
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87cc64e70cbadc41ac0cdf079a8e31a
+      internalID: 1535866609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run06
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 579
+        width: 25
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c7be92534ade04eb455cf2bb1b951e
+      internalID: -1410369670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run07
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 579
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaec8f287ff0b84c820a97c3dd50b5c
+      internalID: 1042532561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run08
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 579
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a508291883fc94a8dac2dac00dd6d9
+      internalID: -1828340960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run09
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 578
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20b848fb1d2f7949b05e59bf18fe9c0
+      internalID: 1890966886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Run10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 579
+        width: 25
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4bbe5c16a2a3e408ef971db19cb9b7
+      internalID: -710357294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Jump01
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 524
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699d41b5af0e27941be5b3cbbfc0b912
+      internalID: 631856410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Jump02
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 523
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9f84ea6ea798441a9e976e054d001f
+      internalID: 1130418275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Jump03
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 523
+        width: 29
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec7ee482f46a6e4d844284f954bdb2b
+      internalID: -2007564757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Jump04
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 523
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92e27b21197d0f4cbea8112fac71ced
+      internalID: -127208562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Jump05
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 523
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e0b31fca042f849b86124bd42f75c0
+      internalID: -986169422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Jump06
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 524
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eed9e5a4ca27a4cb85db3034ce1b24
+      internalID: 1994580740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Jump07
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 525
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4bd1a3cdd79924b959c22ba1dbc65f
+      internalID: 97459248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Slide01
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 524
+        width: 48
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191881ab95d3f4743931b66e34ca7068
+      internalID: 314839864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Slide02
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 524
+        width: 44
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb056c3b6b0ae243a75163acc22d895
+      internalID: 1623412311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Slide03
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 524
+        width: 29
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e798289064e7f4eb46e6861fb959cd
+      internalID: -141731715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_StandShoot01
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 480
+        width: 45
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fd7a90507e39c45b78b24a1b517f4f
+      internalID: -1579137523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_StandShoot02
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 46
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bae80a9e785a264ebc2f50b01f9fa7a
+      internalID: 437343103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_StandShoot03
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 480
+        width: 47
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a831ae41d71e644aee586279cf0aaa
+      internalID: -573146868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_43
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 480
+        width: 45
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6efb63b485ef940a297587897b8fa4
+      internalID: -997068263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_44
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 480
+        width: 45
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941652e66a505344aa3f66f46ec209f1
+      internalID: -1513627169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_45
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 480
+        width: 45
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d1997e2d2770c4484be0639881445d
+      internalID: -1592592832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_46
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 480
+        width: 44
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54527cdb8fdae549ac645f199970e52
+      internalID: -1952627879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_47
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 480
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf2bd004865e574a869a56f4d53e86d
+      internalID: -581020242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_48
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 480
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeafe2287540d69419fc37dbbf106c41
+      internalID: 1724407639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_49
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 480
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b424b28c5e19982408630dc85c1f51c9
+      internalID: 396509567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 422
+        width: 23
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991978d5ac39c78458cb9406e4719f93
+      internalID: -733993536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 425
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3c08c81dd36ab47866e3316bec39de
+      internalID: -828889165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_52
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 425
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c10ad4f90fa2fe408ba8102b890bc7a
+      internalID: -685679421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 422
+        width: 23
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47127da42f3c7844b210dfde2f5910a
+      internalID: 1301523112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_54
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 432
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceec659a6db0314b8dd577f20b52ddf
+      internalID: 2056417567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_55
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 450
+        width: 28
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b3843959d4bb741ae437f3b929bc0d
+      internalID: -228613244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_56
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 424
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7112061744938488523e2a2b3f6a5c
+      internalID: 95597830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_57
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 417
+        width: 48
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b72574e07b28d542a6917d4e200ce1e
+      internalID: -1107150210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_58
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 423
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfdc23b40c6c7546ad5f89cbf751939
+      internalID: 758171713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_59
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 423
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbb59680aaad974f9b0a15edcd626f3
+      internalID: -606520119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_60
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 425
+        width: 39
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4ebbef62b314b4b9b3890afa50173f
+      internalID: 323617046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_JumpShoot01
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 364
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5acd5ef490e701439421961b453d95f
+      internalID: 728031730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_JumpShoot02
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 364
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75145fcc570c67e46af63fbcd4758076
+      internalID: -10532755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_JumpShoot03
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 364
+        width: 38
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6716b4a215ba38f4b98aff8826ca0a2e
+      internalID: -1736212486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_JumpShoot04
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 364
+        width: 39
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97c4bd8f76bd7747a7f5a2403606790
+      internalID: -2111658449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_JumpShoot05
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 364
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f77d8f84a46494dafde9c37fed9213
+      internalID: -1402164153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_JumpShoot06
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 364
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560ec2b92f5c4ea42b489ecf7960a574
+      internalID: 1451127382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_JumpShoot07
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 364
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0658f2066cb7dd74d908c7f6dc88ffd3
+      internalID: 648120986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_JumpShoot08
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 358
+        width: 30
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58eab0a456b9c64abe422d12ef34696
+      internalID: 2032177939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot01
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 317
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401f9d62b7549864688c4da322cdb9f9
+      internalID: -335127581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot02
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 319
+        width: 42
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f466565f610674aa364ab660464d7c
+      internalID: 1703005228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot03
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 317
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6146c5609590230419dc7a8ce927ba26
+      internalID: 33136796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot04
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 318
+        width: 42
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68edea543fcb3b4a87803a01ad725fa
+      internalID: -2071840298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot05
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 318
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76a7232b03cc7441a3b902ec7b4eac8
+      internalID: -1862934770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot06
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 318
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4585c950ad68e634daac5bccd9772bb2
+      internalID: 955576242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot07
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 319
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f24e87f526ea640b06d38b979522d1
+      internalID: -1420604368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot08
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 321
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b190016e3b144ab4bab9521d6426332b
+      internalID: -1799038931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot09
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 320
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad8814d12682ee4298560897efbc018
+      internalID: -1399975321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot10
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 319
+        width: 39
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450261381f70dfe4780f168b1eb5be12
+      internalID: -1817865377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_RunShoot11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 318
+        width: 43
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2adb4ebec6d5a4199961497d312310
+      internalID: 840824359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_80
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 270
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9771d05a2ec884b9ce17baf33a9649
+      internalID: -1533447639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_81
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 270
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98faa4f912e7f7649848365620126e01
+      internalID: -181176853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_82
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 270
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0f93ff7e67e0148ba768c32473f8cd
+      internalID: -296558833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_83
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 270
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766864f21d9da21439aedf13bbd8cb8f
+      internalID: 1362665990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_84
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 270
+        width: 36
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327daddfbf1c9ab469064bdb7efd15f8
+      internalID: -1545047883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_85
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 270
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fb09207e1c7c844bcc516d5ed16c07
+      internalID: -1905408035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_86
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 270
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309748d4a8dc22b43a0428b6204d0a9c
+      internalID: 139836768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_87
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 270
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e89a2b95daf4c44b788a0ea171c11f
+      internalID: 1132052567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_88
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 270
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b49b72d783578b438a261cb52dfd38f
+      internalID: -338153610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_89
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 270
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eb0e68fcc41f744b83a60fb5814955
+      internalID: -389846972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_90
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 270
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9119eadcfae176b4a925650e43cbd354
+      internalID: -2037629012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_91
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 220
+        width: 41
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b748aa010ac3b4ca72873391a87280
+      internalID: -1392380967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_92
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 220
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d56ad3728f47bb42bc141c01d661138
+      internalID: -1048038999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_93
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 220
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f68fee265549a43a26f4f55ec5392d
+      internalID: -85876954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_94
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 220
+        width: 36
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171b693d7ced8c74e9bb15e2403cf586
+      internalID: -1127448264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 243
+        width: 14
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0d13158e689e8499dbf092455cafe0
+      internalID: -2037352158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_96
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 220
+        width: 35
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca087c733305c344fafd7fa3f4d2ebb7
+      internalID: -263177677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_97
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 220
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3833ecb917ec14d81b41c3167c5eff
+      internalID: 714416560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_98
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 220
+        width: 34
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82045d3b6c5488c4082039f8aeff7cce
+      internalID: -140249452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_99
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 220
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1ff431503eaf04e90da5fdde1f2200
+      internalID: -178395933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_100
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 220
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4e297bb2a006c42b8a85ba3d220963
+      internalID: -1419734326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_101
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 220
+        width: 43
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c18e539c47ee8c4285279412567446e
+      internalID: 111272603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_102
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 220
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243cc682eb122684789ec42939141c2b
+      internalID: 1064763620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_103
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 163
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a099574c5b9be45ab483e984a3b03a
+      internalID: -13120224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_104
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 204
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df629743117c8544b2daf5f5f76bed7
+      internalID: 2125047078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_105
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 163
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514689d22c3185e4887d1531e012dbf6
+      internalID: 1613479101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Die01
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 158
+        width: 43
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45401f10d8748884c881b9298aaf6fef
+      internalID: -1966952755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Die02
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 161
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df9bab6f63bd7a45804fbd37a48981c
+      internalID: 966848474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Die03
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 159
+        width: 39
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a36319949776ec4dacc494f98d6ca10
+      internalID: 1316991360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_Die04
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 159
+        width: 42
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f092fe455f3d6c4479525afff18e79ce
+      internalID: -697965046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_110
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 173
+        width: 41
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3841c293e6798a94d8fd4608b1d3fff3
+      internalID: 1596778051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_111
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 162
+        width: 38
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabeeafd086bf80488b760b4679929d6
+      internalID: -1860488510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_112
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 163
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec9582b18412924f9b8da9739c91591
+      internalID: 693710744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_113
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 163
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ed37d74fc152d4a8e43c4dea92c881
+      internalID: -1763048873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_114
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 163
+        width: 44
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f633c6540d74e747b7ee589d21fed5b
+      internalID: 1737333577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_115
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 149
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dee27614ccb5946a12ac54d42cc2e7
+      internalID: -2101753230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_116
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 149
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5722589c9b3394fa2d7157831726bf
+      internalID: 1702380153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_117
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 150
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3346ff4b2ff39a41826f478aaaf724a
+      internalID: 1866240293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_118
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 150
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ff0e0be00ec9e418dcb7c8f37239bc
+      internalID: -1816441240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_119
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 73
+        width: 53
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadee271177660d419699668eab2b40b
+      internalID: -1685135680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_120
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 105
+        width: 59
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d801bbcf7302d045a61b2ae7db7bc17
+      internalID: 982594426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_121
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 105
+        width: 59
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bb3a7745c80784ba2798a5548a45b5
+      internalID: 1071490435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_122
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 106
+        width: 59
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e44c91947c8b5b4fbf758e4a56a4cd1
+      internalID: 322684691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_123
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 106
+        width: 59
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2039c9d7ae4cd8f43aa092a7012c376d
+      internalID: 356119015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_124
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 84
+        width: 57
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f097c2cee86c145b9d5b27ebca5091
+      internalID: -101644985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_125
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 139
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6636ce0a918a242ae839ce463b21f7
+      internalID: -553110587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_126
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 90
+        width: 59
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1288ad5ca6f14e941bba7f4d9d0b9bf6
+      internalID: 429608059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_127
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 66
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d4f24de96670f4385a5daca52b062b
+      internalID: 671323751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_128
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 66
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8fd6c8e8c85f548915fcef767ce9be
+      internalID: 2056917490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_129
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 63
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87deca75117390d48a8af768d3016b61
+      internalID: -556825340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_130
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 63
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d8042181aecb74e95c1e4b36207087
+      internalID: -589226694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_131
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 12
+        width: 56
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ef9726f95114948ac6ba0e6256e3fc
+      internalID: -172393038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_132
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 22
+        width: 59
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c80cf3ad5d237b44ac78d20cf1de0de
+      internalID: -1618662331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_133
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 25
+        width: 59
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb30eb49d5fc84cbeffa0ee3f3504a
+      internalID: 1941841098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_134
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 22
+        width: 55
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484d468c9ccb9b746b1072a93d43fbca
+      internalID: -632992528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaMan_135
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 22
+        width: 55
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08301da409234242af991f30c366690
+      internalID: 1536520850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MegaMan_Jump02: 1130418275
+      MegaMan_JumpShoot02: -10532755
+      MegaMan_Die01: -1966952755
+      MegaMan_8: 1505131393
+      MegaMan_Die02: 966848474
+      MegaMan_113: -1763048873
+      MegaMan_Jump07: 97459248
+      MegaMan_0: 1658019594
+      MegaMan_58: 758171713
+      MegaMan_StandShoot03: -573146868
+      MegaMan_97: 714416560
+      MegaMan_50: -733993536
+      MegaMan_86: 139836768
+      MegaMan_RunShoot08: -1799038931
+      MegaMan_Run06: -1410369670
+      MegaMan_134: -632992528
+      MegaMan_59: -606520119
+      MegaMan_91: -1392380967
+      MegaMan_Idle06: -321402459
+      MegaMan_Run05: 1535866609
+      MegaMan_55: -228613244
+      MegaMan_43: -997068263
+      MegaMan_120: 982594426
+      MegaMan_60: 323617046
+      MegaMan_117: 1866240293
+      MegaMan_122: 322684691
+      MegaMan_87: 1132052567
+      MegaMan_RunShoot10: -1817865377
+      MegaMan_Stand02: -1016064339
+      MegaMan_Jump01: 631856410
+      MegaMan_95: -2037352158
+      MegaMan_Idle02: -1109309414
+      MegaMan_Run10: -710357294
+      MegaMan_56: 95597830
+      MegaMan_116: 1702380153
+      MegaMan_47: -581020242
+      MegaMan_Spawn06: 2042698844
+      MegaMan_130: -589226694
+      MegaMan_126: 429608059
+      MegaMan_StandShoot01: -1579137523
+      MegaMan_101: 111272603
+      MegaMan_Die03: 1316991360
+      MegaMan_100: -1419734326
+      MegaMan_118: -1816441240
+      MegaMan_131: -172393038
+      MegaMan_JumpShoot06: 1451127382
+      MegaMan_17: 1687994773
+      MegaMan_46: -1952627879
+      MegaMan_RunShoot11: 840824359
+      MegaMan_81: -181176853
+      MegaMan_48: 1724407639
+      MegaMan_105: 1613479101
+      MegaMan_Spawn04: -1276519950
+      MegaMan_Run07: 1042532561
+      MegaMan_RunShoot07: -1420604368
+      MegaMan_125: -553110587
+      MegaMan_133: 1941841098
+      MegaMan_Slide02: 1623412311
+      MegaMan_Run02: -2115362007
+      MegaMan_115: -2101753230
+      MegaMan_92: -1048038999
+      MegaMan_111: -1860488510
+      MegaMan_Idle05: 336477674
+      MegaMan_RunShoot02: 1703005228
+      MegaMan_RunShoot05: -1862934770
+      MegaMan_Spawn01: 276964362
+      MegaMan_Run01: -1356530091
+      MegaMan_JumpShoot01: 728031730
+      MegaMan_49: 396509567
+      MegaMan_123: 356119015
+      MegaMan_119: -1685135680
+      MegaMan_Idle03: -1325447024
+      MegaMan_45: -1592592832
+      MegaMan_80: -1533447639
+      MegaMan_44: -1513627169
+      MegaMan_54: 2056417567
+      MegaMan_89: -389846972
+      MegaMan_JumpShoot05: -1402164153
+      MegaMan_94: -1127448264
+      MegaMan_135: 1536520850
+      MegaMan_52: -685679421
+      MegaMan_127: 671323751
+      MegaMan_53: 1301523112
+      MegaMan_104: 2125047078
+      MegaMan_Spawn02: 1910142475
+      MegaMan_88: -338153610
+      MegaMan_84: -1545047883
+      MegaMan_2: -1158287724
+      MegaMan_121: 1071490435
+      MegaMan_Jump06: 1994580740
+      MegaMan_Slide03: -141731715
+      MegaMan_110: 1596778051
+      MegaMan_JumpShoot08: 2032177939
+      MegaMan_Spawn05: 1676289205
+      MegaMan_RunShoot09: -1399975321
+      MegaMan_RunShoot04: -2071840298
+      MegaMan_57: -1107150210
+      MegaMan_83: 1362665990
+      MegaMan_132: -1618662331
+      MegaMan_90: -2037629012
+      MegaMan_Run03: -872831954
+      MegaMan_Idle07: 725860428
+      MegaMan_114: 1737333577
+      MegaMan_98: -140249452
+      MegaMan_Spawn07: 2113690165
+      MegaMan_128: 2056917490
+      MegaMan_Die04: -697965046
+      MegaMan_136: 272896172
+      MegaMan_Run08: -1828340960
+      MegaMan_96: -263177677
+      MegaMan_85: -1905408035
+      MegaMan_102: 1064763620
+      MegaMan_JumpShoot03: -1736212486
+      MegaMan_99: -178395933
+      MegaMan_JumpShoot07: 648120986
+      MegaMan_93: -85876954
+      MegaMan_103: -13120224
+      MegaMan_Jump05: -986169422
+      MegaMan_112: 693710744
+      MegaMan_51: -828889165
+      MegaMan_RunShoot03: 33136796
+      MegaMan_Idle01: -677275356
+      MegaMan_RunShoot06: 955576242
+      MegaMan_Idle04: 1417088806
+      MegaMan_Run04: 1328258645
+      MegaMan_JumpShoot04: -2111658449
+      MegaMan_82: -296558833
+      MegaMan_Jump03: -2007564757
+      MegaMan_124: -101644985
+      MegaMan_Run09: 1890966886
+      MegaMan_Stand01: 1887487138
+      MegaMan_StandShoot02: 437343103
+      MegaMan_RunShoot01: -335127581
+      MegaMan_Spawn03: 1128145607
+      MegaMan_Jump04: -127208562
+      MegaMan_129: -556825340
+      MegaMan_Slide01: 314839864
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
