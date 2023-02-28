@@ -41,7 +41,7 @@ public class EnemyGunVolt : Enemy
         {
             float distance = gameObject.transform.position.x - (GameObject.FindWithTag("Player")).transform.position.x;
             Debug.Log(distance);
-            if (distance < 1 || distance > -1)
+            if ((distance < 1 && distance > 0) || (distance > -1 && distance < 0))
             {
                 if (distance < 0)
                     sr.flipX = true;
