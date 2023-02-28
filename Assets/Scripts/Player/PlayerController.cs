@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
 
         if (jumpForce <= 0)
         {
-            jumpForce = 150;
+            jumpForce = 250;
             Debug.Log("jumpForce was set incorrectly.  Defaulting to " + jumpForce.ToString());
         }
 
@@ -194,4 +194,13 @@ public class PlayerController : MonoBehaviour
         speedChange = null;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Squish"))
+        {
+            EnemyBallDeVoux enemy = collision.gameObject.transform.parent.GetComponent<EnemyBallDeVoux>();
+            enemy.Squish();
+            rb.AddForce(Vector2.up * jumpForce);
+        }
+    }
 }
