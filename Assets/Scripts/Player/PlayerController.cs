@@ -26,27 +26,7 @@ public class PlayerController : MonoBehaviour
 
     // Player Modifiers
     public int health = 50;
-    public int maxLives = 10;
-    private int _lives = 5;
 
-    public int lives
-    {
-        get { return _lives; }
-        set
-        {
-            // if (_lives > value)
-            //we lost a life - we need to respawn
-            _lives = value;
-
-            if (_lives > maxLives)
-                _lives = maxLives;
-
-            //if (_lives < 0)
-            //game over
-
-            Debug.Log("Lives have been set to " + _lives.ToString());
-        }
-    }
     // Start is called before the first frame update
     void Start()
     {
