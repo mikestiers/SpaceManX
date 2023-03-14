@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 [DefaultExecutionOrder(-1)]
 public class GameManager : MonoBehaviour
 {
+    public UnityEvent<int> onLifeValueChanged;
     private static GameManager _instance = null;
 
     public static GameManager instance
@@ -32,6 +34,8 @@ public class GameManager : MonoBehaviour
 
             if (_lives < 0)
                 SceneManager.LoadScene(2);
+
+            onLifeValueChanged?.Invoke(_lives);
 
             Debug.Log("Lives have been set to " + _lives.ToString());
         }
