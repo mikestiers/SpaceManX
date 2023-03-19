@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Projectile : MonoBehaviour
 {
+    AudioSourceManager asm;
+    public AudioClip enemyHit;
     public float lifetime;
 
     [HideInInspector]
@@ -13,6 +15,7 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        asm = GetComponent<AudioSourceManager>();
         if (lifetime <= 0)
             lifetime = 10.0f;
 
@@ -27,12 +30,14 @@ public class Projectile : MonoBehaviour
             GameManager.instance.lives--;
 
         if (collision.gameObject.CompareTag("Wall"))
-                Destroy(gameObject);
+            Destroy(gameObject);
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(1);
+            asm.PlayOneShot(enemyHit, false);
             Destroy(gameObject);
         }
     }
 }
+

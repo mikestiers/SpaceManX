@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
     public UnityEvent<int> onLifeValueChanged;
+    AudioSourceManager asm;
     private static GameManager _instance = null;
 
     public static GameManager instance
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     public int maxLives = 10;
     private int _lives = 5;
+    public AudioClip playerDeath;
 
     public int lives
     {
@@ -61,6 +63,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        asm = GetComponent<AudioSourceManager>();
         lives = maxLives;
     }
 
@@ -90,7 +93,10 @@ public class GameManager : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.K))
+        {
+            asm.PlayOneShot(playerDeath, false);
             lives--;
+        }
     }
 
     public void UpdateCheckpoint(Transform spawnPoint)

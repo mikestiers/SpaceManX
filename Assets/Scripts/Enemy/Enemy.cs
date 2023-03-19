@@ -7,9 +7,11 @@ public class Enemy : MonoBehaviour
 {
     protected SpriteRenderer sr;
     protected Animator anim;
+    AudioSourceManager asm;
 
     protected int _health;
     public int maxHealth;
+    public AudioClip enemyDeath;
 
     // Health interface
     public int health
@@ -29,6 +31,7 @@ public class Enemy : MonoBehaviour
 
     public virtual void Death() // virtual lets child classes override the function
     {
+        asm.PlayOneShot(enemyDeath, false);
         anim.SetTrigger("Death");
         Invoke("DestroyMyself", anim.GetCurrentAnimatorStateInfo(0).length);
     }
@@ -38,6 +41,7 @@ public class Enemy : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        asm = GetComponent<AudioSourceManager>();
 
         if (maxHealth <= 0)
             maxHealth = 5;
@@ -48,6 +52,7 @@ public class Enemy : MonoBehaviour
     public virtual void TakeDamage(int damage)
     {
         health -= damage; // health - damage
+        asm.PlayOneShot(enemyDeath, false);
         Debug.Log(health);
     }
 

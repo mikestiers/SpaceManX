@@ -7,6 +7,7 @@ using UnityEngine.Events; // adding for turrent shoot detection
 public class Shoot : MonoBehaviour
 {
     SpriteRenderer sr;
+    AudioSourceManager asm;
 
     public UnityEvent OnProjectileSpawned; // for turrent guy
     public float projectileSpeed;
@@ -15,10 +16,13 @@ public class Shoot : MonoBehaviour
 
     public Projectile projectilePrefab;
 
+    public AudioClip fireSound;
+
     // Start is called before the first frame update
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        asm = GetComponent<AudioSourceManager>();
 
         if (projectileSpeed <= 0)
             projectileSpeed = 2.0f;
@@ -57,6 +61,9 @@ public class Shoot : MonoBehaviour
                 curProjectile.speed = -(projectileSpeed);
             }
         }
+
+        if (asm)
+            asm.PlayOneShot(fireSound, false);
 
         OnProjectileSpawned?.Invoke(); // so we know when fire function has been called - check enemygunvolt.cs
         // same as if (OnProjectileSpanwed != null) { OnProjectileSpawned.Ivnoke(); }
