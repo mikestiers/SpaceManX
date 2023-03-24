@@ -25,13 +25,21 @@ public class UIManager : MonoBehaviour
     public Text volSliderText;
     public Text livesText;
 
+    [Header("Image")]
+    public Image lifeImage;
+    private List<Image> lifeImages = new List<Image>();
+
+
     [Header("Slider")]
     public Slider volSlider;
 
     public AudioClip pauseSound;
+
     void StartGame()
     {
         SceneManager.LoadScene("Level");
+        GetComponent<AudioSource>().mute = false;
+        Time.timeScale = 1f;
     }
 
     void ShowSettingsMenu()
@@ -82,11 +90,37 @@ public class UIManager : MonoBehaviour
     void ResumeGame()
     {
         pauseMenu.SetActive(false);
+        GetComponent<AudioSource>().mute = false;
+        Time.timeScale = 1f;
     }
 
     void UpdateLifeText(int value)
     {
-        livesText.text = value.ToString();
+        Debug.Log("Life change " + value);
+        // livesText.text = value.ToString();
+        // Destroy or add the tracked life image objects
+        Transform hudTransform = transform.Find("HUD");
+        Transform lifeMeterTransform = hudTransform.Find("LifeMeter");
+        RectTransform lifeMeterRectTransform = lifeMeterTransform.GetComponentInChildren<RectTransform>();
+        // Create the number of life images and add them to a list so they can be destroyed when player dies during update
+        if (value > int.Parse(livesText.text))
+        {
+            Image newImage = Instantiate(lifeImage, lifeMeterRectTransform);
+            newImage.rectTransform.localScale = Vector3.one;
+            lifeImages.Add(newImage);
+            LayoutRebuilder.ForceRebuildLayoutImmediate(lifeMeterRectTransform);
+            livesText.text = value.ToString();
+        }
+        else
+        {
+            int lifeImagesIndex = lifeImages.Count - 1;
+            if (lifeImagesIndex != 0)
+            {
+                Destroy(lifeImages[lifeImagesIndex].gameObject);
+                lifeImages.RemoveAt(lifeImagesIndex);
+                livesText.text = value.ToString();
+            }
+        }
     }
 
     // Start is called before the first frame update
@@ -112,6 +146,19 @@ public class UIManager : MonoBehaviour
 
         if (livesText)
             GameManager.instance.onLifeValueChanged.AddListener(UpdateLifeText);
+
+        // Find the child LifeMeter object because it has a HorizontalLayoutGroup for the life images
+        Transform hudTransform = transform.Find("HUD");
+        Transform lifeMeterTransform = hudTransform.Find("LifeMeter");
+        RectTransform lifeMeterRectTransform = lifeMeterTransform.GetComponentInChildren<RectTransform>();
+        // Create the number of life images and add them to a list so they can be destroyed when player dies during update
+        for (int i = 0; i < int.Parse(livesText.text); i++)
+        {
+            Image newImage = Instantiate(lifeImage, lifeMeterRectTransform);
+            newImage.rectTransform.localScale = Vector3.one;
+            lifeImages.Add(newImage);
+            LayoutRebuilder.ForceRebuildLayoutImmediate(lifeMeterRectTransform);
+        }
     }
 
     // Update is called once per frame

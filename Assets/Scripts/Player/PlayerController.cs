@@ -187,7 +187,15 @@ public class PlayerController : MonoBehaviour
         {
             EnemyBallDeVoux enemy = collision.gameObject.transform.parent.GetComponent<EnemyBallDeVoux>();
             enemy.Squish();
+            enemy.GetComponent<BoxCollider2D>().enabled = false;
+            enemy.GetComponent<Rigidbody2D>().simulated = false;
+            Destroy(enemy.GetComponent<Rigidbody2D>());
             rb.AddForce(Vector2.up * jumpForce);
+            asm.PlayOneShot(squishSound, false);
+        }
+        if (collision.CompareTag("Enemy"))
+        {
+            GameManager.instance.lives--;
             asm.PlayOneShot(squishSound, false);
         }
     }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7458753355740151159}
   - component: {fileID: 4933655458773224314}
   - component: {fileID: 8768188832067242062}
+  - component: {fileID: 7018354331768489873}
   m_Layer: 0
   m_Name: GunVoltProjectileOrb
   m_TagString: EnemyProjectile
@@ -136,6 +137,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b52be22fb8f18cd4ab504c2101b72ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyDeath: {fileID: 8300000, guid: 68c42a25dac1aba4298e91a3d2f51769, type: 3}
-  lifetime: 0
+  enemyHit: {fileID: 0}
+  lifetime: 0.5
   speed: 0
+--- !u!61 &7018354331768489873
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5042595357345762110}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.07}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.15, y: 0.14}
+    newSize: {x: 0.15, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.14}
+  m_EdgeRadius: 0

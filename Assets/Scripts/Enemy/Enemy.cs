@@ -32,6 +32,7 @@ public class Enemy : MonoBehaviour
     public virtual void Death() // virtual lets child classes override the function
     {
         asm.PlayOneShot(enemyDeath, false);
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
         anim.SetTrigger("Death");
         Invoke("DestroyMyself", anim.GetCurrentAnimatorStateInfo(0).length);
     }
@@ -58,6 +59,7 @@ public class Enemy : MonoBehaviour
 
     public void DestroyMyself()
     {
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
         Destroy(gameObject);
     }
 
